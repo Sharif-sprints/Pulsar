@@ -23,8 +23,8 @@ export function ProductCard({ product }: ProductCardProps) {
         throw new Error('Could not initialize Stripe');
       }
 
-      // const response = await fetch('/.netlify/functions/create-checkout', {
-      const response = await fetch('http://localhost:3000/api/create-checkout-session', {
+      const response = await fetch('https://pulsar-pi.vercel.app/api/create-checkout-session', {
+      // const response = await fetch('http://localhost:3000/api/create-checkout-session', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
