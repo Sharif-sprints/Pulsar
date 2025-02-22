@@ -7,7 +7,7 @@ import { AuthModal } from './components/AuthModal';
 import { UploadPage } from './pages/UploadPage';
 import { DashboardPage } from './pages/DashboardPage';
 import { MarketplacePage } from './pages/MarketplacePage';
-import { SuccessPage } from './pages/Success';
+import { SuccessPage } from './pages/SuccessPage';
 import { EnvCheck } from './pages/EnvCheck';
 import type { Product, AuthState } from './types';
 import Cancel from './pages/Cancel';
