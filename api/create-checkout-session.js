@@ -26,8 +26,8 @@ app.post('/api/create-checkout-session', async (req, res) => {
           },
         },
       ],
-      success_url: `https://pulsar-pi.vercel.app/success`,
-      cancel_url: `https://pulsar-pi.vercel.app/cancel`,
+      success_url: `https://pulsar-two.vercel.app/success`,
+      cancel_url: `https://pulsar-two.vercel.app/cancel`,
     });
 
     res.json({ url: session.url });
