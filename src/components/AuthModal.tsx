@@ -57,6 +57,9 @@ export function AuthModal({ isOpen, onClose, onAuth }: AuthModalProps) {
               className="w-full bg-gray-800 border border-gray-700 rounded-lg py-2 px-4 focus:outline-none focus:border-purple-500"
               required
             />
+            <p className="text-xs text-gray-400 mt-1">
+              Use an email with "admin" to access the admin panel
+            </p>
           </div>
           
           <div>
